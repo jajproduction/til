@@ -58,11 +58,11 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ## Usage
 
-This [Neovim Setup][https://github.com/jajproduction/neovim-from-scratch] is my daily use.
+This [Neovim Setup](https://github.com/jajproduction/neovim-from-scratch) is my daily use.
 
 ## About
 
-This idea is based on [jbranchaud/til][https://github.com/jbranchaud/til] and I think it's useful, so I created for myself too.
+This idea is based on [jbranchaud/til](https://github.com/jbranchaud/til) and I think it's useful, so I created for myself too.
 
 ## License
 
