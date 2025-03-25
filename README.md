@@ -55,3 +55,17 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### Readme
 
 - [Privacy and Confidentiality notice](readme/privacy-and-confidentiality-notice.md)
+
+## Usage
+
+This (Neovim Setup)[https://github.com/jajproduction/neovim-from-scratch] is my daily use.
+
+## About
+
+This idea is based on (jbranchaud/til)[https://github.com/jbranchaud/til] and I think it's useful, so I created for myself too.
+
+## License
+
+&copy; 2025 Jaj Dollesin
+
+This repository is licensed under the MIT license. See `LICENSE` for details.
