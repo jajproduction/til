@@ -37,6 +37,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Nextjs
 
+- [How to request the data every second](nextjs/how-to-request-the-data-every-second.md)
 - [Middlware](nextjs/middleware.md)
 - [Mouse glow UI](nextjs/mouse-glow-ui.md)
 - [PH time function](nextjs/ph-time-function.md)
