@@ -57,6 +57,12 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Privacy and Confidentiality notice](readme/privacy-and-confidentiality-notice.md)
 
+### TypeScript
+
+- [Array types](typescript/array-types.md)
+
+---
+
 ## Usage
 
 This [Neovim Setup](https://github.com/jajproduction/neovim-from-scratch) is my daily use.
