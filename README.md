@@ -61,6 +61,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Array types](typescript/array-types.md)
 
+### Vim
+
+- [Remove Carriage Return Character](vim/remove-carriage-return-character.md)
+
 ---
 
 ## Usage
