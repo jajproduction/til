@@ -41,6 +41,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Middlware](nextjs/middleware.md)
 - [Mouse glow UI](nextjs/mouse-glow-ui.md)
 - [PH time function](nextjs/ph-time-function.md)
+- [Sticky navbar](nextjs/sticky-navbar.md)
 
 ### Prettier
 
