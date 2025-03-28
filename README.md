@@ -19,6 +19,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Git
 
+- [Create new branch](git/create-new-branch.md)
 - [Delete latest commit](git/delete-latest-commit.md)
 
 ### Linux
