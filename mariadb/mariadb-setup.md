@@ -23,4 +23,4 @@ MariaDB> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost';
 MariaDB> quit
 ```
 
-(source)[https://wiki.archlinux.org/title/MariaDB]
+[source](https://wiki.archlinux.org/title/MariaDB)
