@@ -62,6 +62,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Privacy and Confidentiality notice](readme/privacy-and-confidentiality-notice.md)
 
+### Tailwindcss
+
+- [Background Animation](tailwindcss/background-animation.md)
+
 ### TypeScript
 
 - [Array types](typescript/array-types.md)
