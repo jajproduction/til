@@ -19,6 +19,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Git
 
+- [Conventional commit format](git/conventional-commits-format.md)
 - [Create new branch](git/create-new-branch.md)
 - [Delete latest commit](git/delete-latest-commit.md)
 - [How do I delete branch locally and remotely](git/how-do-i-delete-branch-locally-and-remotely.md)
