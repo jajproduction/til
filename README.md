@@ -11,9 +11,14 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Git](#git)
 - [Linux](#linux)
 - [Mariadb](#mariadb)
+- [Next-Auth](#next-auth)
 - [Nextjs](#nextjs)
 - [Prettier](#prettier)
 - [Prisma](#prisma)
+- [Readme](#readme)
+- [Tailwindcss](#tailwindcss)
+- [Typescript](#typescript)
+- [Vim](#vim)
 
 ---
 
