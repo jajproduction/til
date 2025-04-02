@@ -70,8 +70,9 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Tailwindcss
 
-- [Background Animation](tailwindcss/background-animation.md)
+- [Background animation](tailwindcss/background-animation.md)
 - [Carousel](tailwindcss/carousel.md)
+- [Radial gradient background](tailwindcss/radial-gradient-background.md)
 
 ### TypeScript
 
