@@ -72,6 +72,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### Tailwindcss
 
 - [Background animation](tailwindcss/background-animation.md)
+- [Cards for pricing](tailwindcss/cards-for-pricing.md)
 - [Carousel](tailwindcss/carousel.md)
 - [Radial gradient background](tailwindcss/radial-gradient-background.md)
 
