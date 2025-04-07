@@ -32,6 +32,8 @@ export const links = [
 **navbar.tsx:**
 
 ```tsx
+"use client";
+
 import {
   Sheet,
   SheetTrigger,
@@ -51,12 +53,19 @@ import { Layers, Menu } from "lucide-react";
 import { ModeToggle } from "@/components/themes/mode-toggle";
 import { Outfit } from "next/font/google";
 import { links, navTitle } from "@/lib/constants";
+import { useEffect, useState } from "react";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
 export default function Navbar() {
+  const [activePath, setActivePath] = useState<string>("");
+
+  useEffect(() => {
+    setActivePath(window.location.pathname);
+  }, []);
+
   return (
-    <nav className="flex sticky top-0 z-50 h-16 w-full shrink-0 items-center px-4 backdrop-blur-lg dark:bg-zinc-950/50 md:px-6">
+    <nav className="flex sticky top-0 z-50 h-16 w-full shrink-0 items-center px-4 backdrop-blur-lg dark:bg-zinc-950/50 md:px-0">
       <Sheet>
         <SheetTrigger asChild>
           <Button variant="ghost" size="icon" className="lg:hidden">
@@ -107,8 +116,13 @@ export default function Navbar() {
                 <NavigationMenuLink key={link.name} asChild>
                   <Link
                     href={link.link}
-                    className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors text-zinc-500 hover:bg-transparent focus:bg-transparent focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:hover:text-zinc-100 dark:focus:text-zinc-100"
                     prefetch={false}
+                    className={`group inline-flex h-9 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors
+            ${
+              activePath === link.link
+                ? "text-zinc-950 dark:text-zinc-100"
+                : "text-zinc-500 dark:hover:text-zinc-100 dark:focus:text-zinc-100"
+            }`}
                   >
                     {link.name}
                   </Link>
@@ -120,7 +134,9 @@ export default function Navbar() {
       </div>
       <div className="flex items-center space-x-2">
         <ModeToggle />
-        <Button size="sm">Login</Button>
+        <Link href="/auth/login">
+          <Button size="sm">Login</Button>
+        </Link>
       </div>
     </nav>
   );
