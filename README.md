@@ -48,6 +48,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [How to request the data every second](nextjs/how-to-request-the-data-every-second.md)
 - [Middlware](nextjs/middleware.md)
+- [Mode toggle](nextjs/mode-toggle.md)
 - [Mouse glow UI](nextjs/mouse-glow-ui.md)
 - [My default layout](nextjs/my-default-layout.md)
 - [PH time function](nextjs/ph-time-function.md)
