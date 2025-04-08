@@ -49,6 +49,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Building forms with react hook form and zod](/nextjs/building-forms-with-react-hook-form-and-zod.md)
 - [Custom spinner ui](/nextjs/custom-spinner-ui.md)
 - [How to request the data every second](nextjs/how-to-request-the-data-every-second.md)
+- [Loading state hook](/nextjs/loading-state-hook.md)
 - [Middlware](nextjs/middleware.md)
 - [Mode toggle](nextjs/mode-toggle.md)
 - [Mouse glow UI](nextjs/mouse-glow-ui.md)

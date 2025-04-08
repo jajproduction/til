@@ -55,11 +55,13 @@ export function Spinner({
 }
 ```
 
-You could also use hooks for your loading state but for this example I did not include the hook because I believe that you know how to do it!
+You could also use [hooks](nextjs/loading-state-hook.md) for your loading state but for this example I did not include the hook because I believe that you know how to do it!
 
 ```tsx
+import { Spinner } from "@/components/ui/spinner";
+
 <div className="flex items-center gap-3">
   <Spinner size="small" show={true} />
   <span>Please wait...</span>
-</div>
+</div>;
 ```
