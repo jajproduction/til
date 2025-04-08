@@ -13,6 +13,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Mariadb](#mariadb)
 - [Next-Auth](#next-auth)
 - [Nextjs](#nextjs)
+- [PostgreSQL](#postgresql)
 - [Prettier](#prettier)
 - [Prisma](#prisma)
 - [Readme](#readme)
@@ -57,6 +58,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [PH time function](nextjs/ph-time-function.md)
 - [Request multiple asynchronous data sources at once](nextjs/request-multiple-asynchronous-data-sources-at-once.md)
 - [Sticky navbar](nextjs/sticky-navbar.md)
+
+### PostgreSQL
+
+- [Windows setup](postgresql/windows-setup.md)
 
 ### Prettier
 
