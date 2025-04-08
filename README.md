@@ -46,7 +46,8 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Nextjs
 
-- [Building Forms with React Hook Form and Zod](/nextjs/building-forms-with-react-hook-form-and-zod.md)
+- [Building forms with react hook form and zod](/nextjs/building-forms-with-react-hook-form-and-zod.md)
+- [Custom spinner ui](/nextjs/custom-spinner-ui.md)
 - [How to request the data every second](nextjs/how-to-request-the-data-every-second.md)
 - [Middlware](nextjs/middleware.md)
 - [Mode toggle](nextjs/mode-toggle.md)
