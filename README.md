@@ -18,6 +18,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Prisma](#prisma)
 - [Readme](#readme)
 - [Tailwindcss](#tailwindcss)
+- [Tmux](#tmux)
 - [Typescript](#typescript)
 - [Vim](#vim)
 
@@ -84,6 +85,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Cards for pricing](tailwindcss/cards-for-pricing.md)
 - [Carousel](tailwindcss/carousel.md)
 - [Radial gradient background](tailwindcss/radial-gradient-background.md)
+
+### Tmux
+
+- [Copy and Paste from system buffer](tmux/copy-and-paste-from-system-buffer.md)
 
 ### TypeScript
 
