@@ -8,6 +8,21 @@
 This is an example of how I used `Promise.all`:
 
 ```tsx
+interface MonthlyProps {
+  month: string;
+  totalSales: number;
+  totalProfit: number;
+}
+
+interface WeeklyProps {
+  week: string;
+  totalSales: number;
+  totalProfit: number;
+}
+
+const [monthly, setMonthly] = useState<MonthlyProps[]>([]);
+const [weekly, setWeekly] = useState<WeeklyProps[]>([]);
+
 useEffect(() => {
   const data = async () => {
     try {
