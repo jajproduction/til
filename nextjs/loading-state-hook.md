@@ -7,10 +7,28 @@ Reusable loading state is nice!
 ```tsx
 import { useState } from "react";
 
-export const useLoading = () => {
-  const [loading, setLoading] = useState(false);
-  return { loading, setLoading };
-};
+type SetState<T> = React.Dispatch<React.SetStateAction<T>>;
+
+export function useLoading<T extends string[]>(...keys: T) {
+  const state: Record<string, boolean> = {};
+  const setters: Record<string, SetState<boolean>> = {};
+
+  keys.forEach((key) => {
+    const [value, setter] = useState(false);
+    state[`${key}Loading`] = value;
+    setters[`set${capitalize(key)}Loading`] = setter;
+  });
+
+  return { ...state, ...setters } as {
+    [K in T[number] as `${K}Loading`]: boolean;
+  } & {
+    [K in T[number] as `set${Capitalize<K>}Loading`]: SetState<boolean>;
+  };
+}
+
+function capitalize<S extends string>(str: S): Capitalize<S> {
+  return (str.charAt(0).toUpperCase() + str.slice(1)) as Capitalize<S>;
+}
 ```
 
 2. Import and use them on your components.
@@ -18,16 +36,32 @@ export const useLoading = () => {
 ```tsx
 import { useLoading } from '@/hooks/useLoading'
 
-const { loading, setLoading } = useLoading()
+const {
+  updateLoading,
+  setUpdateLoading,
+  deleteLoading,
+  setDeleteLoading
+} = useLoading('update', 'delete')
 
-<Button type="submit" className="w-full" disabled={loading}>
-  {loading ? (
-    <div className="flex items-center gap-3">
-      <Spinner size="small" show={true} />
-      <span>Please wait...</span>
-    </div>
-  ) : (
-    "Login"
-  )}
+<Button
+  variant='destructive'
+  disabled={deleteLoading}
+  onClick={async () => {
+    setDeleteLoading(true)
+    try {
+      await handleDelete()
+    } finally {
+      setDeleteLoading(false)
+    }
+  }}
+>
+  {deleteLoading ? <Spinner size='small' show /> : 'Delete'}
+</Button>
+
+<Button
+  type='submit'
+  disabled={updateLoading}
+>
+  {updateLoading ? <Spinner size='small' show /> : 'Save Changes'}
 </Button>
 ```
