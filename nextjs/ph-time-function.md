@@ -18,20 +18,20 @@ This is an example on how you display the exact time, but if it's not try to adj
   accessorKey: 'created_at',
   header: () => <div className='text-right'>Date Created</div>,
   cell: ({ row }) => {
-    const iso = row.getValue('created_at') as string
+    const iso = row.original.created_at
     const date = new Date(iso)
 
-    const phtOffset = 16 * 60 * 60 * 1000
-    const adjustedDate = new Date(date.getTime() + phtOffset)
+    const year = date.getUTCFullYear()
+    const month = date.toLocaleString('en-PH', { month: 'long', timeZone: 'UTC' })
+    const day = date.getUTCDate()
+    let hour = date.getUTCHours()
+    const minute = date.getUTCMinutes().toString().padStart(2, '0')
+    const ampm = hour >= 12 ? 'PM' : 'AM'
 
-    const formatted = adjustedDate.toLocaleString('en-PH', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      hour: 'numeric',
-      minute: 'numeric',
-      hour12: true
-    })
+    hour = hour % 12
+    hour = hour ? hour : 12
+
+    const formatted = `${month} ${day}, ${year} ${hour}:${minute} ${ampm}`
 
     return <div className='text-right text-muted-foreground'>{formatted}</div>
   }
