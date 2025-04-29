@@ -97,6 +97,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Vim
 
+- [Change last character](vim/change-last-character.md)
 - [Remove Carriage Return Character](vim/remove-carriage-return-character.md)
 
 ---
