@@ -51,6 +51,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Nextjs
 
+- [Authentication flow](next/authentication-flow.md)
 - [Building forms with react hook form and zod](/nextjs/building-forms-with-react-hook-form-and-zod.md)
 - [Custom spinner ui](/nextjs/custom-spinner-ui.md)
 - [How to request the data every second](nextjs/how-to-request-the-data-every-second.md)
