@@ -20,7 +20,7 @@ const spinnerVariants = cva("flex-col items-center justify-center", {
   },
 });
 
-const loaderVariants = cva("animate-spin text-zinc-200 dark:text-zinc-900", {
+const loaderVariants = cva("animate-spin text-zinc-200", {
   variants: {
     size: {
       small: "size-4",
