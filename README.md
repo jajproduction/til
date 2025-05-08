@@ -35,8 +35,9 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Linux
 
-- [Natural scrolling X11](linux/natural-scrolling-x11.md)
 - [Count line of code](linux/count-line-of-code.md)
+- [Generate secret key](linux/generate-secret-key.md)
+- [Natural scrolling X11](linux/natural-scrolling-x11.md)
 
 ### Mariadb
 
