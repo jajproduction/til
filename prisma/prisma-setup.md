@@ -76,7 +76,7 @@ Inside the prisma folder at the root of your project, create a `prisma.ts` file 
 Now, add the following code to your `prisma/prisma.ts` file:
 
 ```ts
-import { PrismaClient } from "../app/generated/prisma";
+import { PrismaClient } from "@/prisma/generated/prisma";
 import { withAccelerate } from "@prisma/extension-accelerate";
 
 const globalForPrisma = global as unknown as {
