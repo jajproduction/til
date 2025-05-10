@@ -63,6 +63,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [PH time function](nextjs/ph-time-function.md)
 - [Request multiple asynchronous data sources at once](nextjs/request-multiple-asynchronous-data-sources-at-once.md)
 - [Sticky navbar](nextjs/sticky-navbar.md)
+- [Top loader](nextjs/top-loader.md)
 
 ### PostgreSQL
 
