@@ -19,6 +19,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Readme](#readme)
 - [Tailwindcss](#tailwindcss)
 - [Tmux](#tmux)
+- [TRPC](#trpc)
 - [Typescript](#typescript)
 - [Vim](#vim)
 
@@ -94,6 +95,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### Tmux
 
 - [Copy and Paste from system buffer](tmux/copy-and-paste-from-system-buffer.md)
+
+### TRPC
+
+- [Get started](trpc/get-started.md)
 
 ### TypeScript
 
