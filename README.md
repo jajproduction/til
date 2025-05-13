@@ -99,6 +99,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### TRPC
 
 - [Get started](trpc/get-started.md)
+- [Use mutation](trpc/use-mutation.md)
 
 ### TypeScript
 
