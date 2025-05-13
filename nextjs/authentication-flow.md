@@ -1,9 +1,14 @@
 # Authentication Flow
 
-- Middleware
-- Sessions
+Install `jose` for JWT.
+
+```sh
+npm install jose
+```
 
 ```ts
+// middleware.ts
+
 import { NextRequest, NextResponse } from "next/server";
 import { decrypt } from "@/lib/session";
 
@@ -31,6 +36,8 @@ export default async function middleware(req: NextRequest) {
 ```
 
 ```ts
+// lib/session.ts
+
 "use server";
 
 import { SignJWT, jwtVerify } from "jose";
