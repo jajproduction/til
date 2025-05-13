@@ -100,6 +100,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Get started](trpc/get-started.md)
 - [Use mutation](trpc/use-mutation.md)
+- [Use query](trpc/use-query.md)
 
 ### TypeScript
 
