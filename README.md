@@ -8,6 +8,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Categories
 
+- [CSS](#css)
 - [Git](#git)
 - [Linux](#linux)
 - [Mariadb](#mariadb)
@@ -24,6 +25,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Vim](#vim)
 
 ---
+
+### CSS
+
+- [Hide scrollbars](css/hide-scrollbars.md)
 
 ### Git
 
