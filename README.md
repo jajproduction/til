@@ -9,6 +9,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### Categories
 
 - [CSS](#css)
+- [Docker](#docker)
 - [Git](#git)
 - [Linux](#linux)
 - [Mariadb](#mariadb)
@@ -29,6 +30,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### CSS
 
 - [Hide scrollbars](css/hide-scrollbars.md)
+
+### Docker
+
+- [Clean server disk usage](docker/clean-server-disk-usage.md)
 
 ### Git
 
