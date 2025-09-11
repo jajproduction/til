@@ -42,3 +42,13 @@ Or add a port if you want like this:
 ```sh
 python manage.py runserver 3000
 ```
+
+Here is the quickest way to get started with django!
+
+```sh
+mkdir foo
+cd foo
+pipenv shell
+pipenv install django
+django-admin startproject foo .
+```
