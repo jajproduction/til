@@ -37,6 +37,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Git
 
+- [Check Commit Files](git/check-commit-files.md)
 - [Conventional commit format](git/conventional-commits-format.md)
 - [Create new branch](git/create-new-branch.md)
 - [Delete latest commit](git/delete-latest-commit.md)
