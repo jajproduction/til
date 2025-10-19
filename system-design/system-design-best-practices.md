@@ -68,10 +68,10 @@ After the prototype:
 
 7. Typical Order (Best Practice Flow)
 
-1. Problem definition & scope
-2. Use cases / context diagram
-3. DFD + ERD (your step!)
-4. System architecture diagram
-5. API design & sequence diagrams
-6. Prototype (UI + backend)
-7. Iterate and test
+- Problem definition & scope
+- Use cases / context diagram
+- DFD + ERD (your step!)
+- System architecture diagram
+- API design & sequence diagrams
+- Prototype (UI + backend)
+- Iterate and test
