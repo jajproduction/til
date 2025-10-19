@@ -102,6 +102,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ### System Design
 
 - [System Design Best Practices](system-design/system-design-best-practices.md)
+- [Workflow](system-design/workflow.md)
 
 ### Tailwindcss
 
