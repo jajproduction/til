@@ -79,6 +79,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### PostgreSQL
 
+- [Import Errors](postgresql/import-errors.md)
 - [pg_dum Command](postgresql/pg_dump-command.md)
 - [psql Command](postgresql/psql_command.md)
 - [Windows setup](postgresql/windows-setup.md)
