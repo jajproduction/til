@@ -99,6 +99,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 - [Privacy and Confidentiality notice](readme/privacy-and-confidentiality-notice.md)
 
+### System Design
+
+- [System Design Best Practices](system-design/system-design-best-practices.md)
+
 ### Tailwindcss
 
 - [Background animation](tailwindcss/background-animation.md)
