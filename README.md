@@ -18,6 +18,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [PostgreSQL](#postgresql)
 - [Prettier](#prettier)
 - [Prisma](#prisma)
+- [React-Native](#react-native)
 - [Readme](#readme)
 - [Tailwindcss](#tailwindcss)
 - [Tmux](#tmux)
@@ -94,6 +95,10 @@ A collection of concise write-ups on small things I learn day to day across a va
 - [Data model](prisma/data-model)
 - [Prisma setup](prisma/prisma-setup.md)
 - [Role numeric mapping](prisma/role-numeric-mapping.md)
+
+### React-Native
+
+- [Get Started with expo](react-native/get-started-with-expo.md)
 
 ### Readme
 
