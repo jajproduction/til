@@ -98,7 +98,8 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### React-Native
 
-- [Get Started with expo](react-native/get-started-with-expo.md)
+- [Advanced react native setup](react-native/advanced-react-native-setup.md)
+- [Get started with expo](react-native/get-started-with-expo.md)
 
 ### Readme
 
